@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "okta-test-component": {
+      "description": "A blank schematic.",
+      "factory": "./okta-test-component/index#oktaTestComponent",
+      "schema": "./okta-test-component/schema.json"
+    }
+  }
+}
