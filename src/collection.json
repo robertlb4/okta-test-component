@@ -5,6 +5,11 @@
       "description": "A blank schematic.",
       "factory": "./okta-test-component/index#oktaTestComponent",
       "schema": "./okta-test-component/schema.json"
+    },
+    "ng-add": {
+      "factory": "./ng-add/index",
+      "description": "Add schematic",
+      "schema": "./okta-test-component/schema.json"
     }
   }
 }
